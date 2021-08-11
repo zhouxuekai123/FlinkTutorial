@@ -35,7 +35,7 @@ public class SinkTest4_Jdbc {
         PreparedStatement inserStmt = null;
         PreparedStatement updateStmt = null;
 
-        //open主要创建连接
+        //open 主要是创建连接
         @Override
         public void open(Configuration parameters) throws Exception {
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "123456");
